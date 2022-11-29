@@ -1,0 +1,95 @@
+<html>
+	<head>
+	<title>Igor Bystrichenko</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="header-container">
+			<div class="left-header">
+				<p class="logo">
+					Igor Bystrichenko
+				</p>
+				
+			</div>
+			<div class="right-header">
+				
+					<li>
+						<a href="index.html">Главная</a>
+					</li>
+
+					<li>
+						<div class="dropdown">
+							<a href="#" class="dropbtn">Регионы</a>
+							<div class="dropdown-content">
+							<a href="#">Кавказ</a>
+							<a href="#">Урал</a>
+							<a href="#">Сибирь</a>
+							</div>
+						</div>
+					</li>
+					
+					<li>
+						<a href="#" id="loginBtn">Войти</a>
+						<div id="loginModal" class="modal">
+							<div class="login">
+								<span id="loginClose" class="close">&times;</span>
+								<h1>Вход</h1>
+								<form action="" method="POST">
+									<p> Электронная почта<br><br>
+									<input type="text" name="email" value=""><br><br>
+									 Пароль<br><br>
+									<input type="text" name="password" value=""><br><br>
+									</p>
+									<input type="submit" value="Войти" style="margin-top: 10px; margin-bottom: 20px; height: 40px;"> 
+								</form>
+							</div>
+						</div>
+					</li>
+			</div>
+		</div>
+	</header>
+		
+	<main>
+
+		<article style="margin-top: 30;">
+			<div class="fullpost-container">
+				<section style="margin-bottom: 35; width: 100%;">
+					<a href="#" id="imgBtn" style="width: 100%;">
+						<img src="img/2.jpg" alt="Драка тигров">
+					</a>
+					
+					<div id="imgModal" class="modal">
+						<div class="modal-content">
+							<span id="imgClose" class="close">&times;</span>
+							<img src="img/2.jpg" style="width: 100%;" alt="Драка тигров">
+						</div>
+					</div>
+
+					<div style="margin: 12px;">
+						<h1>
+							<span>В Кавказском заповеднике тигры подрались. Ого!</span>
+						</h1>
+
+						<p>Местный фотограф во время прогулки сделал несколько снимков местных тигров.</p>
+					
+					</div>
+					
+				</section>
+			</div>
+		</article>
+		
+		<footer>
+		<div class="footer-container">
+			<p>© Igor Bystrichenko<br>2022 Все права защищены, наверно.</p>
+		</div>
+		<script src="js/login.js"></script>
+		<script src="js/image.js"></script>
+		</footer>
+	</main>
+	</body>
+</html>
